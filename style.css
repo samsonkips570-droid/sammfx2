@@ -1,0 +1,341 @@
+html {
+    scroll-behavior: smooth;
+}
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:#161b22;
+}
+
+header h1{
+    color:#00ff99;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#cccccc;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#00ff99;
+    color:black;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#00cc77;
+}.services{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.services h2{
+    font-size:36px;
+    color:#00ff99;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+    width:300px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#00ff99;
+}.why-us{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.why-us h2{
+    color:#00ff99;
+    margin-bottom:40px;
+    font-size:36px;
+}.about{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.about h2{
+    color:#00ff99;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+    color:#d3d3d3;
+}.footer{
+    background:#161b22;
+    padding:40px 20px;
+    text-align:center;
+    margin-top:80px;
+}
+
+.footer h2{
+    color:#00ff99;
+    margin-bottom:10px;
+}
+
+.footer p{
+    color:#bdbdbd;
+    margin:10px 0;
+}.stats{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:80px 10%;
+}
+
+.stat-box{
+    background:#161b22;
+    width:250px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.stat-box h2{
+    color:#00ff99;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    color:#d3d3d3;
+}.about {
+    padding: 60px 20px;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+.about h2 {
+    color: #00ff99;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 18px;
+}.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #0d1117;
+    color: white;
+}
+
+.contact h2 {
+    color: #00ff99;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin: 15px 0;
+}footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #00ff99;
+}.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+.chart {
+    padding: 60px 20px;
+    background: #111;
+    text-align: center;
+    color: white;
+}
+
+.chart h2 {
+    color: #00ff99;
+    margin-bottom: 20px;
+}
+
+.chart iframe {
+    border-radius: 10px;
+}.testimonials {
+    padding: 60px 20px;
+    background: #0d1117;
+    color: white;
+    text-align: center;
+}
+
+.testimonial {
+    background: #1a1a1a;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    border-left: 4px solid #00ff99;
+}
+
+.testimonial h4 {
+    color: #00ff99;
+    margin-top: 10px;
+.courses {
+    padding: 60px 20px;
+    background: #0d1117;
+    color: white;
+    text-align: center;
+}
+
+.course-card {
+    background: #1a1a1a;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    border-left: 4px solid #00ff99;
+}
+
+.course-card h3 {
+    color: #00ff99;
+}.social {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0d1117;
+}
+
+.social h2 {
+    color: #00ff99;
+    margin-bottom: 20px;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social a:hover {
+    color: #00ff99;
+#theme-toggle {
+    background: #00ff99;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.light-mode {
+    background: #ffffff;
+    color: #000000;
+}
+
+.light-mode nav,
+.light-mode footer {
+    background: #f5f5f5;
+}
+
+.light-mode .services,
+.light-mode .about,
+.light-mode .contact,
+.light-mode .chart {
+    background: #eeeeee;
+    color: #000000;
+}.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}.dashboard {
+    padding: 40px 20px;
+    color: white;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-left: 5px solid #00ff99;
+}.logo {
+    width: 60px;
+    height: auto;
+}
